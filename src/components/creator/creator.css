@@ -1,0 +1,38 @@
+.creator-box {
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px 5px;
+    display: flex;
+    border-radius: 2px;
+    background-color: #273c75;
+}
+
+.creator-input {
+    background: none;
+    outline: none;
+    border: none;
+    padding: 0 5px;
+    color: #f5f6fa;
+    font-size: 15px;
+}
+
+.add-task {
+    background: none;
+    outline: none;
+    border: none;
+
+    background-color: #273c75;
+    color: #ffa502;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 1px solid #192a56;
+    padding-left: 15px;
+}
+
+.add-task:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}

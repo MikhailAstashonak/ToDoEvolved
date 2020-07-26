@@ -1,0 +1,82 @@
+header {
+    width: 1100px;
+    display: flex;
+    background-color: #192a56;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px 0 20px;
+}
+
+.header--made-by {
+    color: #dcdde1;
+}
+
+.header--made-by:hover {
+    cursor: pointer;
+}
+
+.header--contact {
+    display: flex;
+}
+
+.header--contact a {
+    margin-left: 20px;
+    color: #192a56;
+    font-size: 18px;
+    display: block;
+    width: 28px;
+    height: 28px;
+    text-decoration: none;
+
+    background-color: #dcdde1;
+    border: 1px solid #dcdde1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.header--contact a:hover {
+    background-color: #192a56;
+    color: #dcdde1;
+    transition: .3s;
+}
+
+
+.contact-me {
+    color: #fbc531;
+    animation: ContactMeDisappear .5s ease-in-out forwards;
+}
+
+.header--made-by:hover .contact-me {
+    display: inline;
+    color: #fbc531;
+    margin-left: 15px;
+    animation-name: ContactMeAppear;
+    animation-duration: .5s;
+}
+
+.made-by-name:hover {
+    text-decoration: underline;
+}
+
+@keyframes ContactMeAppear {
+    0% {
+        opacity: 0;
+        margin-left: 0;
+    } 100% {
+        opacity: 1;
+        margin-left: 15px;
+    }
+}
+
+@keyframes ContactMeDisappear {
+    0% {
+        opacity: 1;
+        margin-left: 15px;
+    } 100% {
+        opacity: 0;
+        margin-left: 0;
+        display: none;
+    }
+}

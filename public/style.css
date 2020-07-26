@@ -1,0 +1,33 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #192a56;
+}
+
+.description {
+    color: #7f8fa6
+}
+
+.blue{
+    background-color: #192a56;
+}
+
+.red {
+    background-color: #c23616;
+}
+
+.purple {
+    background-color: #675aa8;
+}
+
+.orange {
+    background-color: #f19066;
+}
+
+.green {
+    background-color: #009432;
+}
